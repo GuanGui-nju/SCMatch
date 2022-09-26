@@ -1,2 +1,4 @@
-# SCMatch:Improving Barely Supervised Learning by Discriminating Unlabeled Samples with Super-Class
+# SCMatch: Improving Barely Supervised Learning by Discriminating Unlabeled Samples with Super-Class
 Implementation of "Improving Barely Supervised Learning by Discriminating Unlabeled Samples with Super-Class" (NeurIPS 2022)
+
+We propose a simple but effective method for barely-supervised learning (BSL), where the label is scarce, for instance, 1 label per class. The lack of discriminative information for learning leads to the failure of current semi-supervised learning models in BSL. To this end, we explored the super-classes dynamically to provide appropriate discriminating guidance, i.e.,using the relative relations to enforce the unlabeled sample to be closer to its corresponding super-class than to other super-classes. As a result, our methods can achieve significant and consistent improvement in BSL without deteriorating SSL with more labels.
